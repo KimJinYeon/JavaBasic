@@ -12,7 +12,7 @@
 ### main 메소드
 * main 메소드는 프로그램의 시작점을 의미한다.
 <pre><code>public static void main(String[] args) {
-(코드 내용)
+    (코드 내용)
 }
 </code></pre>
 * 위와 같은 형태가 자주 이용된다.
