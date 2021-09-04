@@ -11,16 +11,13 @@
 
 ### main 메소드
 * main 메소드는 프로그램의 시작점을 의미한다.
-
     <pre>
     <code>
-        public static void main(String[] args) {
-            (코드 내용)
+    public static void main(String[] args) {
+        (코드 내용)
     }
     </code>
-    </pre>
-    
-
+    </pre>   
 * 위와 같은 형태가 자주 이용된다.
 * HelloWorld 예제에서 궁금한 점
 * javac으로 실행하면 println()의 내용이 출력되지 않는다.
