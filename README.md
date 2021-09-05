@@ -79,6 +79,55 @@
         + substring
            + String의 substring과 사용법 동일
 
-* 
+* Array
+    - 같은 종류의 자료형을 순서대로 배열한 자료형
+    - 배열의 길이는 고정
+        + 더 긴 배열이 필요할 경우, 새로운 배열을 선언하고 데이터를 옯겨야 한다.
+    - index를 이용하여 값에 접근
+    - 배열의 길이
+        + length 속성을 이용
+
+* List
+    - List는 자료형이 아니고 인터페이스
+        + 인터페이스는 실질적인 내용이 아니라 필요한 입출력의 내용만 선언한 것
+    - ArrayList는 List Interface의 implementation
+    - ArrayList의 유용한 메소드
+        + add
+        + get
+        + size
+        + contains
+        + remove
+
+* Generics
+    - 클래스나 인터페이스를 파라미터화 하는 것이다.
+    - 더 명확한 자료형 선언 가능
+    - 형변환 과정 생략 가능
+
+* Map
+    - python의 dict와 유사하다.
+    - key와 value의 쌍으로 구성
+
+### 제어문
+
+* if
+    - 조건을 판단하여 실행하거나 실행하지 않는다.
+    - if, else if, else로 구분
+
+* switch, case
+    - switch 뒤에 나오는 변수에 따라 case 실행
+    - break; 가 없으면 그 뒤에 있는 모든 case 실행
+
+* while
+    - 조건문이 참인 동안 계속 실행
+    - break 로 탈출 가능
+    - continue 로 조건문으로 다시 보내기 가능
+
+* for
+    - for(초기치, 조건문, 증감)
+    - while처럼 break와 continue 사용 가능
+    - 향상된 for 문
+        + for each문이라고도 한다.
+        + for(변수 : 반복 가능한 객체){}
+        + 파이썬의 for in 문과 비슷하게 사용 가능
 
             
