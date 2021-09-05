@@ -48,15 +48,37 @@
     - 객체이므로 new String으로 선언
     - 유용한 메소드
         + equals
-            + == 연산자는 같은 객체인지 판별하기 때문에 문자열 값만 비교하고 싶을 때 유용하다.
+            == 연산자는 같은 객체인지 판별하기 때문에 문자열 값만 비교하고 싶을 때 유용하다.
         + indexOf
-            + 주어진 문자열 값이 어디서부터 시작되는지 반환한다.
+             주어진 문자열 값이 어디서부터 시작되는지 반환한다.
         + replaceAll
-            + 대상 문자열 값을 주어진 문자열 값으로 변환한다.
+             대상 문자열 값을 주어진 문자열 값으로 변환한다.
         + substring
-            + 문자열 중 원하는 부분을 추출한다
-            + python의 문자열 슬라이싱과 같은 역할
+             문자열 중 원하는 부분을 추출한다
+             python의 문자열 슬라이싱과 같은 역할
         + toUpperCase, toLowerCase
-            + 문자열을 모두 대문자(소문자)로 변경
-            + python의 upper(), lower()와 같은 역할
-            + case-sensitive 하지 않은 경우에 유용
+             문자열을 모두 대문자(소문자)로 변경
+             python의 upper(), lower()와 같은 역할
+             case-sensitive 하지 않은 경우에 유용
+
+* StringBuffer
+    - mutable (변경 가능)
+         String 클래스는 immutable
+    - 다중 쓰레드 사용에 안전
+    - 기본적으로 16자의 버퍼를 가지고 있다.
+    - 유용한 메소드
+        + append
+            문자열을 추가해 나갈 수 있다.
+            length()위치에 insert하는 것과 동일한 효과.
+        + insert
+            원하는 위치에 원하는 문자열을 추가
+        + length
+            StringBuffer의 길이 반환
+        + delete
+            원하는 만큼 문자열 삭제
+        + substring
+            String의 substring과 사용법 동일
+
+* 
+
+            
