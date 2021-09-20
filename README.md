@@ -176,3 +176,13 @@
     - 하나의 객체가 여러 개의 자료형 타입을 가질 수 있는 것을 다형성이라고 한다.
     - 하나의 객체이지만 메소드에 따라서 다르게 응답할 수 있다.
     - 인터페이스는 extends 예약어를 사용해 여러 인터페이스를 동시에 상속 가능하다.
+
+### 콘솔 입출력
+
+* Scanner 사용하지 않는 경우
+    - InputStream, InputStreamReader, BufferedReader를 차례로 인자로 받으면서 사용
+    - InputStream은 byte, InputStreamReader는 char, BufferedReader는 String을 다룬다.
+
+* Scanner 사용
+    - Scanner 인스턴스 선언한 후 사용
+    - next()은 단어 하나, nextLine()은 라인, nextInt()는 정수 반환
