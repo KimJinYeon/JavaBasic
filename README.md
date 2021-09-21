@@ -186,3 +186,17 @@
 * Scanner 사용
     - Scanner 인스턴스 선언한 후 사용
     - next()은 단어 하나, nextLine()은 라인, nextInt()는 정수 반환
+
+### 파일 입출력
+
+* FileOutputStream 클래스 이용
+    - byte 단위로 쓰기
+    - write() 메소드 이용하여 쓰기 가능
+
+* FileWriter 클래스 이용
+    - String으로 쓰기
+    - write() 메소드 이용하여 쓰기 가능
+
+* PrintWriter 클래스 이용
+    - String으로 쓰기
+    - println() 메소드 이용 가능(줄바꿈 포함)
